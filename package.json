@@ -28,13 +28,15 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "styled-components": "^5.2.1",
-    "yup": "^0.32.8"
+    "yup": "^0.32.8",
+    "npm-run-all": "^4.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ci": "run-p test lint types"
   },
   "eslintConfig": {
     "extends": [
